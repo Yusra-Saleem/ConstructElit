@@ -1,0 +1,7 @@
+{
+  "/projects/mega/page": "app/projects/mega/page.js",
+  "/projects/residential/page": "app/projects/residential/page.js",
+  "/projects/commercial/page": "app/projects/commercial/page.js",
+  "/clients/page": "app/clients/page.js",
+  "/page": "app/page.js"
+}
