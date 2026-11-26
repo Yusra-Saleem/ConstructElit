@@ -1,61 +1,58 @@
-# ConstructElite Corporate Platform
+# ConstructElite Architectural Engineering Platform
 
-> Corporate web platform for architectural design and construction engineering.
+> Corporate web platform for civil engineering, commercial construction management, and architectural planning.
 
-## Overview
+## 1. System Overview
 
-ConstructElite is an enterprise web showcase for architectural planning, construction management, and civil engineering projects, presenting case studies, services, and corporate milestones.
+ConstructElite is an enterprise digital platform designed for civil engineering firms and commercial builders. It showcases completed infrastructure projects, outlines structural engineering methodologies, presents client testimonials, and manages consultation inquiries.
 
-## Key Features
+## 2. Technical Architecture
 
-- Project portfolio gallery featuring commercial and residential builds
-- Comprehensive breakdown of construction services and engineering practices
-- Client testimonial carousel and executive leadership team section
-- Responsive contact and quote consultation request forms
+```
+[ Corporate Visitor / Commercial Client ]
+        │
+        ▼
+[ Next.js App Router Architecture ]
+        │
+        ├──▶ [ Commercial & Residential Project Portfolio Showcase ]
+        ├──▶ [ Structural Engineering & Safety Compliance Matrix ]
+        └──▶ [ Project Estimation & Consultation Dispatch Workflow ]
+```
 
-## Architecture and Technology Stack
+### Technology Stack
+- **Framework:** Next.js (App Router, TypeScript)
+- **Styling:** Tailwind CSS, PostCSS
+- **Build Tooling:** ESLint, TypeScript 5+
 
-- **Core Technologies:** JavaScript, HTML5, CSS3, Responsive Architecture
-- **Author:** Yusra Saleem
-- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+## 3. Key Modules
 
-## Getting Started
+- **Project Case Studies:** Detailed visual breakdowns of engineering milestones, timelines, and budgets.
+- **Service Taxonomy:** Civil planning, commercial renovations, interior architecture, and project management.
+- **Consultation Engine:** Interactive quote request forms capturing project scope and site parameters.
+- **Cross-Platform Delivery:** Optimized for desktop board presentations and mobile on-site reviews.
 
-### Prerequisites
+## 4. Directory Structure
 
-Ensure you have the required runtime environment installed for this repository:
-- Node.js (v18+) for JavaScript/TypeScript projects
-- Python (3.10+) for Python services and agent workflows
+```
+construct-elite/
+├── app/                      # Next.js App Router views
+├── components/               # Portfolio grids, service cards, contact forms
+├── tailwind.config.js        # Industrial corporate design tokens
+└── package.json              # Dependencies and scripts
+```
 
-### Installation
-
-Clone the repository to your local machine:
+## 5. Local Setup
 
 ```bash
 git clone https://github.com/Yusra-Saleem/construct-elite.git
 cd construct-elite
-```
 
-Install dependencies:
-
-```bash
-# For Node / Next.js projects
 npm install
-
-# For Python projects
-pip install -r requirements.txt
-```
-
-### Running Locally
-
-```bash
-# Start local development server
 npm run dev
-
-# Or for Python entry points
-python main.py
 ```
 
-## License
+## 6. Author and License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for complete details.
+- **Author:** Yusra Saleem
+- **Portfolio:** [yusrasaleem.dev](https://yusrasaleem.dev)
+- **License:** Licensed under the [MIT License](LICENSE).
